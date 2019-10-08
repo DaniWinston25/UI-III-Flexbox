@@ -64,3 +64,231 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+
+}
+.grouped{
+	display:flex;
+	max-width: 300px;
+
+}
+.top-content{
+	display: inline-block;
+
+}
+.header{
+	max-width: 200px;
+	float: center;
+
+}
+title{
+	color: black;
+	font-size: 16px;
+	font-family: 'sans-serif';
+	box-sizing: border-box;
+
+}
+nav a{
+	text-decoration: none;
+	color: gray;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 10px;
+}
+
+.nav{
+	width: 70%;
+	display: inline-block;
+
+}
+
+.get-started{
+	display: inline-block;
+	box-sizing: border-box;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	border: 2px solid black;
+	text-align: center;
+	height:30px;
+	width: 100px;
+}
+.great-logo{
+	width: 28%;
+	display: inline-block;
+
+}
+.innovations{
+	text-align:center;
+	padding: 3px;
+}
+h1{
+	color: black;
+	font-size: 50px;
+	font-family: 'Titillium Web',;
+	display: inline-block;
+	text-align:center;
+	margin: 10px 25px 10px 50px;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	
+	
+
+}
+hr{
+	margin:2%;
+}
+.middle-img{
+	text-align: center;
+
+	
+	
+}
+.column1{
+	display: inline-block;
+	width: 45%;
+	margin:2%;
+}
+.column2{
+	display: inline-block;
+	width: 45%;
+	margin: 2%;
+	
+	
+}
+.pull-right{
+	text-align: right;
+}
+.fifty{
+	padding: 2%;
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+}
+.column3{
+	display: inline-block;
+  width: 31%;
+  padding: 10px;
+
+}
+.column4{
+	display: inline-block;
+  width: 31%;
+  padding: 10px;
+	
+}
+.column5{
+	display: inline-block;
+  width: 31%;
+  padding: 10px;
+
+
+}
+
+.address{
+	color: black;
+	font-family: "Bangers", cursive;
+	text-align: left;
+
+	
+}
+.street{
+	font:inherit;
+	text-align: left;
+	margin: 10px;
+	height:40px;
+	width: 200px;
+
+}
+.contact{
+	font:inherit;
+	height: 40px;
+	width:200px;
+}
+.email{
+	font:inherit;
+	height: 40px;
+	width:200px;
+}
+
+.copy{
+	text-align: center;
+
+}
+
+/*----- all the content below is for the serivces.html------*/
+.container-two{
+	max-width: 900px;
+	margin: auto;
+	padding: 10px;
+}
+.great-ideas-nav{
+	display:flex;
+	justify-content: space-between;
+	
+}
+.clickables{
+	display: flex;
+	flex-direction: row nowrap;
+	margin:left;
+	width: 75%;
+	padding-top: 10px;
+}
+.great-ideas-img{
+	text-align: right;
+	width:30%;
+	
+}
+.main-img{
+	display: flex;
+	justify-content: center;
+}
+.main-focus{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding: 10px 10px 0px 0px;
+}
+#container-writing{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-shrink: 1;
+}
+.middle-content{
+	display: flex;
+	flex-basis: 48%;
+	justify-content: center;
+	flex-direction: column;
+}
+.middle-content{
+	border: solid 1px darkgray;
+ 	 background: lightgray;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+
+.final-content{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+
+
+
+
+
+.copyright{
+	display: flex;
+	justify-content: center;
+}
