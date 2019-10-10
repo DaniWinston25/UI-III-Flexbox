@@ -254,40 +254,28 @@ hr{
 	flex-wrap: wrap;
 	padding: 10px 10px 0px 0px;
 }
-#container-writing{
-	min-height: 100%;
+
+.middle-content{
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	flex-shrink: 1;
+	justify-content: space-around;
 }
-.middle-content{
+.box{
 	display: flex;
-	flex-basis: 48%;
-	justify-content: center;
-	flex-direction: column;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border: 2px solid darkgrey;
+	width: 45%;
+	background: lightgray;
+	padding: 20px;
+  	margin-bottom: 40px;
 }
-.middle-content{
-	border: solid 1px darkgray;
- 	 background: lightgray;
-  padding: 20px;
-  margin-bottom: 40px;
-}
-
-
 .final-content{
 	display:flex;
 	flex-direction: row;
-	justify-content: space-between;
-
+	justify-content: space-around;
+	align-content: space-around;
 }
-
-
-
-
-
-
 .copyright{
 	display: flex;
 	justify-content: center;
